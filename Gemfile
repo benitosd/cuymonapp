@@ -42,7 +42,7 @@ gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 gem "bootsnap", require: false
 #gem 'dartsass-sprockets'
 #gem 'sass-embedded'
-gem "base64", '~> 0.1.1'
+gem "base64", '~> 0.2.0'
 gem 'bootstrap', '~> 5.3.3'
 gem 'jquery-rails'
 gem "sassc-rails"
