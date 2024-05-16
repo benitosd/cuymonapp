@@ -15,7 +15,10 @@ pin "bootstrap", to: "bootstrap.min.js", preload: true
 pin "@popperjs/core", to: "popper.js", preload: true
 
 # Use all.js instead of fontawesome.js
-pin "@fortawesome/fontawesome-free", to: "https://ga.jspm.io/npm:@fortawesome/fontawesome-free@6.1.2/js/all.js"
+#pin "@fortawesome/fontawesome-free", to: "https://ga.jspm.io/npm:@fortawesome/fontawesome-free@6.1.2/js/all.js"
 
 # Custom JS
 pin "my_script", to: "my_script.js", preload: true
+pin "stimulus-flatpickr" # @1.4.0
+pin "flatpickr" # @4.6.13
+pin "stimulus" # @3.2.2
