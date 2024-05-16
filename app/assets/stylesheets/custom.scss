@@ -1,7 +1,7 @@
 body {
     background-color: #888;
   }
-  @charset "UTF-8";
+  //@charset "UTF-8";
 /*!
 * Start Bootstrap - SB Admin v7.0.7 (https://startbootstrap.com/template/sb-admin)
 * Copyright 2013-2023 Start Bootstrap
@@ -386,6 +386,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
+  appearance: auto;
   -webkit-appearance: button;
 }
 button:not(:disabled),
@@ -444,6 +445,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
+  appearance: none;
   -webkit-appearance: textfield;
 }
 
@@ -465,6 +467,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
+  appearance: none;
   -webkit-appearance: button;
 }
 
