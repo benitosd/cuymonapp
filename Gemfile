@@ -54,6 +54,8 @@ gem 'capistrano-rvm'
 gem 'pg'
 gem 'stringio', '3.1.0'
 gem 'execjs'
+gem 'devise'
+gem 'letter_opener'
 
 gem "figaro"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
