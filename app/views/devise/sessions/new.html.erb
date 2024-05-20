@@ -1,5 +1,7 @@
 
+  
 <div id="layoutAuthentication">
+
             <div id="layoutAuthentication_content">
                 <main>
                     <div class="container">
@@ -11,7 +13,7 @@
                                         <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
                                           <div class="form-floating mb-3">
                                           <%= f.text_field :code,autofocus: false,class: "form-control", id:"inputEmail",placeholder: "current-password" %><br />
-                                          <%= f.label :code, for: "inputEmail"%> 
+                                          <%= f.label :code,I18n.t("template.user.cols.code"), for: "inputEmail"%> 
                                           </div>
 
                                           <div class="form-floating mb-3">
