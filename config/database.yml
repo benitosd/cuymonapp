@@ -26,5 +26,5 @@ test:
 
 production:
   <<: *default
- 
+  host: localhost
   database: cuymon_production
