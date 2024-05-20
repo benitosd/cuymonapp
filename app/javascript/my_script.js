@@ -35,6 +35,6 @@ document.addEventListener("turbo:load", () => {
 				nextArrow: "<span title=\"Next month\">&raquo;</span>",
 				defaultDate: defaultDate
 			});
-		})
+		});
 
 
