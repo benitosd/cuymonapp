@@ -5,7 +5,7 @@
 document.addEventListener("turbo:load", () => {
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
     const popoverList = [...popoverTriggerList].map((popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl));
-  })
+  });
   
   
   window.addEventListener('DOMContentLoaded', event => {
@@ -24,7 +24,7 @@ document.addEventListener("turbo:load", () => {
         });
     }
 
-})
+});
 
 		document.addEventListener("DOMContentLoaded", function() {
 			var date = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
