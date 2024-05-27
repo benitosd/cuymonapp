@@ -8,3 +8,4 @@ import "bootstrap";
 import "@fortawesome/fontawesome-free";
 import "my_script";
 import "flatpickr"
+import "corejs-typeahead"
